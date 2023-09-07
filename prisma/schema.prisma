@@ -38,6 +38,6 @@ model Message {
   parentId  String?
   likes     Int       @default(0)
   // Define the parent-child relationship between messages
-  parent    Message?  @relation("Children", fields: [parentId], references: [id])
+  parent    Message?  @relation("Children", fields: [parentId], references: [id], onDelete: Cascade)
   children  Message[] @relation("Children")
 }
