@@ -4,7 +4,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs,express,prisma,git,github)](https://skillicons.dev)
 
-## build an Express server which responds to requests as the following API documentation
+## Build an Express server which responds to requests as the following API documentation
 
 `export const API = "https://spammer-backend-giang.onrender.com"`
 
